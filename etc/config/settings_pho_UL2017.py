@@ -91,10 +91,8 @@ biningDef = [
 ########## Cuts definition for all samples
 #############################################################
 ### cut
-#cutBase   = 'ph_chWorIso <2.14 && ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et)) && ph_phoIso < ((0.17) +0.003*(ph_et))  && (ph_hoe<0.023) && (ph_sieie<0.0103) && tag_Ele_pt > 30 && abs(tag_sc_eta) < 2.17'
-#cutBase   = 'ph_chWorIso <2.14 && ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et)) && ph_phoIso < ((0.17) +0.003*(ph_et))  && (ph_hoe<0.023) && tag_Ele_pt > 35 && abs(tag_sc_eta) < 2.17'
 cutBase   = 'tag_Ele_pt > 35 && abs(tag_sc_eta) < 2.17'  #egamma
-#cutBase   = '(((ph_sieie)<0.0103) && ((tag_Ele_pt) > 35) && (abs(tag_sc_eta) < 2.17))'  #egamma
+
 #cutBase   = 'tag_Ele_pt > 30 && abs(tag_sc_eta) < 2.17'  #test
 # can add addtionnal cuts for some bins (first check bin number using tnpEGM --checkBins)
 #LS: we removed the met cuts cause JEC not ready for UL2017        
