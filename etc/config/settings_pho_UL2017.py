@@ -3,19 +3,8 @@
 # flag to be Tested
 flags = {
     
-    #    'test_endcap'    : '((ph_chWorIso <4.98) && (ph_neuIso < ((5.24) +0.0072*(ph_et) +0.000017*(ph_et)*(ph_et))) && (ph_phoIso < ((1.20) +0.0019*(ph_et)))  && (ph_hoe<0.011) && (ph_sieie<0.026))',
-    'mphoton2017wisigma'    : '((ph_chWorIso <2.14) && (ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et))) && (ph_phoIso < ((0.17) +0.003*(ph_et)))  && (ph_hoe<0.023) && (ph_sieie<0.0103))',
-
-
-    #       'test'    : '((ph_chWorIso <2.14) && (ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et))) && (ph_phoIso < ((0.17) +0.003*(ph_et)))  && (ph_hoe<0.023) && (ph_sieie<0.0103))',
-    #       'test'    : '((ph_chWorIso <2.14) && (ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et))) && (ph_hoe<0.023) && (ph_sieie<0.0103))',
-    
-    #    'test_endcap'    : '((ph_chWorIso <4.98) && (ph_neuIso < ((5.24) +0.0072*(ph_et) +0.000017*(ph_et)*(ph_et))) && (ph_phoIso < ((1.20) +0.0019*(ph_et)))  && (ph_hoe<0.011) && (ph_sieie<0.026))',
-    #    'test_barrel'    : '((ph_chWorIso <1.63) && (ph_neuIso < ((11.45) +0.00973714*(ph_et) +0.0000101605*(ph_et)*(ph_et))) && (ph_phoIso < ((5.76) +0.00299336*(ph_et)))  && (ph_hoe<0.031) && (ph_sieie<0.0104))',
+  
     #    'test_egamma'    : '((ph_chIso <1.141) && (ph_neuIso < ((1.189) +0.01512*(ph_et) +0.00002259*(ph_et)*(ph_et))) && (ph_phoIso < ((2.08) +0.004017*(ph_et)))  && (ph_hoe<0.02197) && (ph_sieie<0.01015))',
-    #    'test'    : '((ph_chWorIso <2.14) && (ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et)))  && (ph_hoe<0.023) && (ph_sieie<0.0103))',
-    
-    #    'mphoton2017wosigma'    : '((ph_chWorIso <2.14) && (ph_neuIso < ((7.25) +0.0097*(ph_et) +0.00001*(ph_et)*(ph_et))) && (ph_phoIso < ((0.17) +0.003*(ph_et)))  && (ph_hoe<0.023)',
     
 
     'passingLoose100XV2'   : '(passingLoose100XV2  == 1)',
